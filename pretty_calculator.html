@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="pretty_calculator.css">
+        <script type="text/javascript" src="pretty_calculator.js"></script>
+    </head>
+
+    <body>
+        <div class="calculator">
+            <div id="userinput"></div>
+
+            <div class="number-keys">
+                <button onclick="myFunction(7)">7</button>
+                <button onclick="myFunction(8)">8</button>
+                <button onclick="myFunction(9)">9</button>
+                <button onclick="myFunction(4)">4</button>
+                <button onclick="myFunction(5)">5</button>
+                <button onclick="myFunction(6)">6</button>
+                <button onclick="myFunction(1)">1</button>
+                <button onclick="myFunction(2)">2</button>
+                <button onclick="myFunction(3)">3</button>
+                <button id="number-bottom-left" onclick="myFunction('.')">.</button>
+                <button onclick="myFunction(0)">0</button>
+                <button onclick="myFunction('=')">=</button>
+            </div><!-- end number-keys -->
+
+            <div class="function-keys">
+                <button id="function-top-left" onclick="myFunction('C')">C</button>
+                <button onclick="myFunction('/')">/</button>
+                <button onclick="myFunction('*')">*</button>
+                <button onclick="myFunction('-')">-</button>
+                <button id="function-bottom-right" onclick="myFunction('+')">+</button>
+            </div><!-- end function-keys -->
+        </div>
+    </body>
+</html>
